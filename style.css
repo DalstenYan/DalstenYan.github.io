@@ -1,0 +1,266 @@
+*
+{
+    margin: 10px;
+}
+html, body, .about-me
+{
+    height: 100%;
+}
+
+.navbar * 
+{
+    background-color: #CE2D4F;
+    padding: 3px;
+    margin: 1px;
+}
+.navbar .form-control
+{
+    background-color: white;
+}
+
+.navbar .container-fluid .nav-item a, .navbar-brand
+{
+    font-family: "Lexend";
+    font-weight: 600;
+    font-size: x-large;
+    color: white;
+}
+.navbar .container-fluid .nav-item .disabled
+{
+    color: lightgray;
+    align-content: center;
+}
+.tab
+{
+    border-left: white solid;
+    border-left-style: double;
+    height: 100px;
+    text-align: center;
+    margin: -2px;
+    margin-top: -2px;
+    align-content: center;
+}
+
+
+.about-me
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.about-me-text
+{
+    flex-direction: column;
+    color: white;
+    background-color: #2a3d45;
+    width: 50vw;
+    text-align: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.my-summary
+{
+    margin: 20px;
+    margin-top: 0px;
+    padding: 8px;
+    padding-left: 10px;
+    font-family: "Lexend";
+    font-weight: 400;
+    color:white;
+    text-align: left;
+    background-color: #ce6d8b;
+}
+
+.my-summary h1
+{
+    font-weight: 800;
+}
+
+.my-summary h1, .my-summary h2
+{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.543);
+}
+
+.my-summary p
+{
+    background: #3e92cc;
+    padding: 15px;
+    border-radius: 25px;
+}
+.schools
+{
+    text-align: center;
+    margin-inline: auto;
+}
+
+.schoolimg img
+{
+    border-radius: 100%;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    padding:20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.goals
+{
+    display:flex;
+    background-color: rgba(59, 59, 59, 0.699);
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    margin-inline: auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bg-img1
+{
+    background-image:url(img/classroom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-inner img
+{
+    width: 800px;
+    aspect-ratio: 2/1;
+}
+.carousel-caption
+{
+    background-color: rgba(0, 0, 0, 0.53);
+}
+
+.contactpage
+{
+    background-color: #2a3d45;
+    color:white;
+    font-family: "Lexend";
+    font-weight: 500;
+    padding: 5px;
+}
+.contactpage h1, .submit
+{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.form-floating label
+{
+    color:black;
+    padding: 0px;
+}
+
+.input-group, .input-group-text
+{
+    margin:0px;
+}
+.socialcards, #projectgroup
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+#projectgroup
+{
+    font-family: "Arvo";
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #2a3d45;
+    color:white;
+    padding: 0px;
+    margin: 15px;
+}
+
+.projectcard
+{
+    background-color: #3e92cc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.list-group-item
+{
+    padding-inline: 7px;
+}
+
+.projectcard img
+{
+    text-align: center;
+    max-width: 93%;
+    object-fit: cover;
+    display: block;
+}
+
+.card-title
+{
+    padding-top: 10px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.card {
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    aspect-ratio: 1/1;
+    background-color: #ce6d8b;
+    transition: box-shadow 0.3s; 
+}
+.card h3
+{
+    margin: 0px;
+}
+
+.skillcard
+{
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 4px;
+    height: fit-content;
+
+}
+
+.card:hover {
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.2);
+    color: black;
+    transition: transform 0.3s;
+    transform: scale(1.05); 
+}
+
+  .card-image {
+    max-height: 150px;
+    object-fit: contain;              
+    border-radius: 4px;     
+    margin-bottom: 5px;
+    transition: transform 0.3s;     
+}
+.card:hover .card-image
+{
+    transform: scale(1.025); 
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+    width: 20%;
+    padding: 0 10px;
+  }
